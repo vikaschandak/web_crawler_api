@@ -30,33 +30,6 @@ A scalable FastAPI-based web crawler service for extracting metadata, content, a
 - MongoDB (or use Docker Compose)
 - pip
 
-### Setup
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd web_crawler_api
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Configure environment variables:
-Create a `.env` file with:
-```
-MONGODB_URL=mongodb://localhost:27017
-DATABASE_NAME=web_crawler
-```
-
-4. Run the application:
-```bash
-python main.py
-```
-
-The API will be available at `http://localhost:8000`
-
 ## Docker Setup
 
 1. Build and run with Docker Compose:
